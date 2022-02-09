@@ -1,0 +1,10 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: cities
+  data:
+    mongodb:
+      uri: mongodb+srv://username:username@cluster0.4kpxv.mongodb.net/cities?retryWrites=true&w=majority
+      database: cities
+#      authentication-database: admin
